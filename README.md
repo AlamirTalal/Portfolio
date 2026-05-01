@@ -1,2 +1,2 @@
 # Portfolio
-My simpl portfolio
+My simple portfolio
