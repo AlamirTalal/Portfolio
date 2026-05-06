@@ -33,6 +33,18 @@ const translations = {
     // Taqseema Page
     taqseema_long_desc: "Taqseema isn't just an app; it's a vibrant community for football enthusiasts. It simplifies your life by making pitch booking seamless, while also serving as a social space to meet players who share your passion. Whether you're looking to form a team or find a missing player, Taqseema brings the football community together.",
     taqseema_features: "<li>Effortless pitch booking and match organization.</li><li>Sub-finder to quickly find teammates.</li><li>A social hub to connect with like-minded football players.</li><li>Interactive 'Taqsima' drag-and-drop team formation UI.</li>",
+    // Athr Page
+    project_athr: "Athr",
+    project_athr_desc: "A comprehensive Islamic application aimed at enhancing the user's daily spirituality.",
+    athr_long_desc: "Athr is designed to be your daily spiritual companion. It provides all the essential tools a Muslim needs in one place, with a beautiful and intuitive interface. From prayer times to Quran tracking and Prophet stories, Athr helps you stay connected to your faith throughout the day.",
+    athr_features: "<li>Accurate prayer times based on location.</li><li>The Holy Quran with reading and memorization features.</li><li>Authentic Hadiths from reliable sources.</li><li>Qibla compass for determining prayer direction.</li><li>Daily prayer and Quran progress tracking.</li><li>Engaging and inspiring stories of the Prophets.</li>",
+    // Journaly Page
+    project_journaly: "Journaly",
+    project_journaly_desc: "Your daily companion for tracking your mood, productivity, and habits.",
+    journaly_long_desc: "Journaly is more than just a diary; it's a powerful tool for self-improvement. By tracking your sleep, happiness, tasks, and habits, it provides you with clear insights into your life through detailed periodic reports. It helps you stay organized and mindful of your daily progress.",
+    journaly_features: "<li>Logging sleep hours and daily activity.</li><li>Tracking happiness percentage and general mood.</li><li>Integrated Todo List showing completed vs. total tasks.</li><li>Daily prayer and worship tracking.</li><li>Periodic reports (daily, weekly, monthly) for progress analysis.</li><li>Personal space for writing daily notes and journals.</li>",
+    // Common
+    visit_project: "Visit Project Website",
     // Mafia Page
     mafia_long_desc: "Mafia is the ultimate test of your cunning and manipulative skills. In this game, deception is your best weapon. You have to be sly, lie to your friends, wear different masks, and orchestrate betrayals without getting caught. Can you survive the psychological warfare?",
     mafia_features: "<li>Intense psychological gameplay based on deception.</li><li>Real-time multiplayer lobbies to manipulate your friends.</li><li>Blind role distribution for maximum unpredictability.</li><li>Atmospheric UI designed for a dark, secretive experience.</li>",
@@ -73,6 +85,18 @@ const translations = {
     // Taqseema Page
     taqseema_long_desc: "تقسيمة مش مجرد تطبيق عادي، هو مجتمع متكامل للاعبي الكورة. التطبيق بيسهل حياتك في حجز الملاعب وتنظيم المباريات، وفي نفس الوقت هو مكان اجتماعي بيجمعك بناس شبهك عندهم نفس الشغف. سواء كنت بتدور على لاعب يكمل فريقك أو عايز تبني فريق من الصفر، تقسيمة هيظبطك.",
     taqseema_features: "<li>حجز الملاعب وتنظيم المباريات بسهولة تامة.</li><li>ميزة 'ناقصنا لاعب' للبحث السريع عن زملاء للفريق.</li><li>مجتمع اجتماعي للتواصل مع لاعبي كرة القدم.</li><li>واجهة 'التقسيمة' التفاعلية بخاصية السحب والإفلات.</li>",
+    // Athr Page
+    project_athr: "أثر",
+    project_athr_desc: "برنامج إسلامي شامل يهدف لتعزيز الروحانية اليومية للمستخدم.",
+    athr_long_desc: "أثر هو رفيقك الروحاني اليومي، بيجمع لك كل اللي محتاجه كمسلم في مكان واحد بواجهة سهلة ومريحة. من مواقيت الصلاة للمصحف وتتبع الورد وقصص الأنبياء، أثر بيساعدك تفضل متصل بعباداتك طول اليوم بشكل منظم وجميل.",
+    athr_features: "<li>مواقيت الصلاة بدقة بناءً على الموقع.</li><li>المصحف الشريف مع إمكانيات القراءة والحفظ.</li><li>الأحاديث الصحيحة من مصادر موثوقة.</li><li>بوصلة القبلة لتحديد اتجاه الصلاة.</li><li>تتبع الصلاة والورد القرآني يومياً.</li><li>قصص الأنبياء بأسلوب ممتع وشيق.</li>",
+    // Journaly Page
+    project_journaly: "جورنالي",
+    project_journaly_desc: "رفيقك اليومي لتتبع حالتك النفسية، إنتاجيتك، وعاداتك الصحية والدينية.",
+    journaly_long_desc: "جورنالي مش مجرد مذكرة، هو أداة قوية لتطوير الذات. من خلال تتبع نومك وسعادتك ومهامك اليومية، التطبيق بيقدملك تقارير واضحة بتفهمك أكتر عن يومك وبتساعدك تحسن من عاداتك وتكون أكتر إنتاجية وتركيز.",
+    journaly_features: "<li>تسجيل ساعات النوم والنشاط اليومي.</li><li>تتبع نسبة السعادة والمزاج العام.</li><li>قائمة مهام (Todo List) متكاملة تظهر الإنجاز.</li><li>تتبع الصلوات والعبادات اليومية.</li><li>تقارير دورية (يومية، أسبوعية، شهرية) لتحليل التقدم.</li><li>مساحة لكتابة الملاحظات واليوميات الخاصة.</li>",
+    // Common
+    visit_project: "اذهب لصفحة المشروع",
     // Mafia Page
     mafia_long_desc: "مافيا هي الاختبار الحقيقي لمدى دهائك وقدرتك على الخداع. هنا الخبث هو سلاحك الوحيد؛ لازم تكدب على اللي حواليك، تركب وشوش مش وشك، وتتلاعب بالكل عشان توصل لهدفك من غير ما حد يكشفك. هل هتقدر تلعب بيهم كلهم وتطلع منها سليم؟",
     mafia_features: "<li>لعب نفسي مكثف يعتمد على الخداع والمكر.</li><li>غرف لعب جماعية للتلاعب بأصدقائك في الوقت الفعلي.</li><li>توزيع أدوار خفي لضمان أقصى درجات الغموض وعدم التوقع.</li><li>تصميم واجهة مظلم وغامض لتعزيز تجربة اللعب السرية.</li>",
@@ -114,13 +138,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // --- Language Management ---
   const langToggleBtn = document.getElementById('lang-toggle');
-  
+
   // Apply Language Function
   const applyLanguage = (lang) => {
     // Update HTML attributes
     htmlElement.setAttribute('lang', lang);
     htmlElement.setAttribute('dir', lang === 'ar' ? 'rtl' : 'ltr');
-    
+
     // Update Fonts
     if (lang === 'ar') {
       htmlElement.classList.remove('font-poppins');
@@ -162,9 +186,9 @@ document.addEventListener('DOMContentLoaded', () => {
   const submitButton = document.getElementById('submit-button');
 
   if (contactForm) {
-    contactForm.addEventListener('submit', async function(e) {
+    contactForm.addEventListener('submit', async function (e) {
       e.preventDefault();
-      
+
       // Update UI to show loading state
       submitButton.textContent = currentLang === 'ar' ? 'جاري الإرسال...' : 'Sending...';
       submitButton.disabled = true;
@@ -179,7 +203,7 @@ document.addEventListener('DOMContentLoaded', () => {
             'Accept': 'application/json'
           }
         });
-        
+
         if (response.ok) {
           formStatus.textContent = translations[currentLang].msg_success;
           formStatus.classList.add('text-green-500');
