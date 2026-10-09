@@ -411,19 +411,23 @@ html[dir="rtl"] .btn--primary:hover i { transform: translateX(-4px); }
 .nav-toggle {
   display: none;
   width: 44px; height: 44px;
+  flex: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  padding: 0;
   border-radius: 12px;
   border: 1px solid var(--stroke);
   background: var(--panel);
-  place-items: center;
 }
 .nav-toggle span {
   display: block;
-  width: 18px; height: 2px;
+  width: 20px; height: 2px;
   background: #fff;
   border-radius: 2px;
   transition: transform .3s var(--ease), opacity .3s;
 }
-.nav-toggle span + span { margin-top: 5px; }
 .nav-toggle.active span:nth-child(1) { transform: translateY(7px) rotate(45deg); }
 .nav-toggle.active span:nth-child(2) { opacity: 0; }
 .nav-toggle.active span:nth-child(3) { transform: translateY(-7px) rotate(-45deg); }
@@ -463,6 +467,20 @@ html[dir="rtl"] .btn--primary:hover i { transform: translateX(-4px); }
 .drawer a:nth-child(4) { transition-delay: .2s; }
 .drawer a:nth-child(5) { transition-delay: .25s; }
 .drawer a:nth-child(6) { transition-delay: .3s; }
+
+.drawer .drawer-cta {
+  align-self: flex-start;
+  margin-top: 26px;
+  padding: 14px 30px;
+  border-radius: 999px;
+  background: var(--grad);
+  color: #fff;
+  font-family: var(--font-display);
+  font-size: 1rem;
+  font-weight: 700;
+  box-shadow: 0 12px 34px -12px rgba(139, 92, 246, .9);
+}
+html[dir="rtl"] .drawer .drawer-cta { font-family: var(--font-ar); }
 
 /* =========================================================
    Hero
@@ -1368,8 +1386,13 @@ html[dir="rtl"] .footer-col a:hover { transform: translateX(-4px); }
 
 @media (max-width: 900px) {
   .nav-links { display: none; }
-  .nav-actions .icon-btn.lets-talk { display: none; }
-  .nav-toggle { display: grid; }
+  .nav-actions { flex-shrink: 0; }
+  .nav-actions .lets-talk { display: none; }
+  .scroll-hint { display: none; }
+  .nav-toggle { display: flex; }
+  .nav-inner { padding: 10px 10px 10px 16px; }
+  .brand { font-size: 1.05rem; gap: 10px; }
+  .brand-mark { width: 34px; height: 34px; }
   .stats { grid-template-columns: repeat(2, 1fr); }
   .skills-wrap { grid-template-columns: 1fr; }
   .projects-grid { grid-template-columns: repeat(2, 1fr); }
